@@ -1,0 +1,120 @@
+[
+    {
+        "pattern": "list all users",
+        "query": {},
+        "regex": "(Give|find|list) all users"
+    },
+    {
+        "pattern": "give all user's information",
+        "query": {},
+        "regex": "(Give|find|list) all user's information"
+    },
+    {
+        "pattern": "all user's info?",
+        "query": {},
+        "regex": "(Give|find|list)? all user's info ?"
+    },
+    {
+        "pattern": "find user by {username}",
+        "query": {
+            "username": "{username}"
+        },
+        "regex": "(find|give|list) user by (?P<username>\\w+)"
+    },
+    {
+        "pattern": "Give details of user named {username}",
+        "query": {
+            "username": "{username}"
+        },
+        "regex": "(Give|list|find) (details|detail) of (user)? (named)? (?P<username>\\w+)"
+    },
+    {
+        "pattern": "Give user {username}",
+        "query": {
+            "username": "{username}"
+        },
+        "regex": "(Give|find|list) user (?P<username>\\w+)"
+    },
+    {
+        "pattern": "Give user named {username}",
+        "query": {
+            "username": "{username}"
+        },
+        "regex": "(Give|find|list) user named (?P<username>\\w+)"
+    },
+    {
+        "pattern": "List user details named by {username}",
+        "query": {
+            "username": "{username}"
+        },
+        "regex": "List user details named by (?P<username>\\w+)"
+    },
+    {
+        "pattern": "List user info of {username}",
+        "query": {
+            "username": "{username}"
+        },
+        "regex": "(List|give|find) user (info|information) of (?P<username>\\w+)"
+    },
+    {
+        "pattern": "list all users from {country}",
+        "query": {
+            "country": "{country}"
+        }
+    },
+    {
+        "pattern": "list all logged in users",
+        "query": {
+            "status": "Logged-In"
+        }
+    },
+    {
+        "pattern": "find user by email {email}",
+        "query": {
+            "email": "{email}"
+        }
+    },
+    {
+        "pattern": "find user by first name {firstname}",
+        "query": {
+            "firstname": "{firstname}"
+        },
+        "regex": "(find|give|list) user by first name (?P<firstname>\\w+)"
+    },
+    {
+        "pattern": "find user by last name {lastname}",
+        "query": {
+            "lastname": "{lastname}"
+        },
+        "regex": "(find|give|list) user by last name (?P<lastname>\\w+)"
+    },
+    {
+        "pattern": "find user by security question {select}",
+        "query": {
+            "Security Question": "{select}"
+        },
+        "regex": "(find|give|list) user by security question (?P<select>.+)"
+    },
+    {
+        "pattern": "find user by answer {ans}",
+        "query": {
+            "Answer": "{ans}"
+        },
+        "regex": "(find|give|list) user by answer (?P<ans>.+)"
+    },
+    {
+        "pattern": "find user by date {Date}",
+        "query": {
+            "Date": "{Date}"
+        },
+        "regex": "(find|give|list) user by date (?P<Date>\\d{4}-\\d{2}-\\d{2})"
+    },
+    {
+        "pattern": "find user by time {Time}",
+        "query": {
+            "Time": "{Time}"
+        },
+        "regex": "(find|give|list) user by time (?P<Time>\\d{2}:\\d{2}:\\d{2})"
+    }
+]
+

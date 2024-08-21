@@ -1,0 +1,67 @@
+.SForm
+{
+  padding-top: 4rem;;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 19px;
+}
+.J
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn
+{
+  padding: 0.25rem; 
+padding-left: 0.75rem;
+padding-right: 0.75rem; 
+color: #374151; 
+font-weight: 600; 
+text-transform: uppercase; 
+border-radius: 9999px; 
+border-width: 2px; 
+/* border-color: #374151;  */
+text-size-adjust: 12px;
+cursor: pointer;
+}
+.U
+{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Ut
+{
+  gap:1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Ut1
+{
+  gap:6.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  
+}
+.A
+{
+  gap:2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.At
+{
+  gap:0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.but{background-color:#047857;border-color:#059669;border-radius:.5rem;border-width:2px;color:#fff;font-size:1.25rem;font-weight:700;line-height:1.75rem;margin-top:1.25rem;padding:.75rem;transition-duration:.3s;transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;transition-timing-function:linear;:hover{background-color:#f5f3ff;color:#047857}}
