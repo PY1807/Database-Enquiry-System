@@ -1,6 +1,6 @@
 class ConfigData:
    
-    OPEN_AI_KEY="MY OPEN_AI_KEY"
+    # OPEN_AI_KEY="MY OPEN_AI_KEY"
     TABLE_SCHEMA = '''
                     "username": "string",
                     "firstname": "string",
